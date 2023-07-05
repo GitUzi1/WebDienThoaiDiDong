@@ -1,0 +1,265 @@
+/* Reset CSS */
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.top-bar a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.main-nav {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.main-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.main-nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.main-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.top-right {
+    display: flex;
+    align-items: center;
+}
+
+.top-right a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+section.hero {
+    background-image: url('hero.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    margin-top: 30px;
+    align-items: center;
+    z-index: 0;
+    
+}
+
+.hero-content {
+    text-align: center;
+}
+
+.hero-content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+section.featured-products {
+    padding: 50px 0;
+    z-index: 1;
+}
+
+.featured-products h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.product-list {
+    display: flex;
+    justify-content: center;
+}
+
+.product-item {
+    text-align: center;
+    margin: 0 20px;
+}
+
+.product-item img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.container-login-sigup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-section {
+    width: 33.33%;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .login-section h2 {
+    margin-bottom: 10px;
+  }
+  
+  
+.login-section {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .login-section h2 {
+    margin-bottom: 10px;
+  }
+  
+  .login-section form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-section label {
+    margin-bottom: 5px;
+  }
+  
+  .login-section input[type="text"],
+  .login-section input[type="password"] {
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .login-section button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-section button:hover {
+    background-color: #555;
+  }
+  
+  .login-section p {
+    margin-top: 10px;
+    
+  }
+
+.banner-container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .banner-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .banner-button {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    z-index: 2;
+  }
+
+  .banner-button a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+
+  .sort-by {
+    margin-bottom: 20px;
+  }
+  
+  .sort-by label {
+    margin-right: 10px;
+  }
+  
+  .products {
+    list-style: none;
+    /* Các thuộc tính khác để tạo kiểu cho danh sách sản phẩm */
+  }
+
+.main-nav ul li:not(:last-child) a::after {
+    content: " | ";
+}
+
+.top-right   a:not(:last-child)::after {
+    content: " | ";
+}
